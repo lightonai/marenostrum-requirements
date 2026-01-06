@@ -9,19 +9,19 @@ A package to install common ML/AI dependencies.
 Install directly from GitHub:
 
 ```bash
-pip install git+https://github.com/lighton/marenostrum-requirements.git
+pip install git+https://github.com/lightonai/marenostrum-requirements.git
 ```
 
 Install a specific branch:
 
 ```bash
-pip install git+https://github.com/lighton/marenostrum-requirements.git@main
+pip install git+https://github.com/lightonai/marenostrum-requirements.git@main
 ```
 
 Install a specific tag/version:
 
 ```bash
-pip install git+https://github.com/lighton/marenostrum-requirements.git@v0.1.0
+pip install git+https://github.com/lightonai/marenostrum-requirements.git@v0.1.0
 ```
 
 ### Using uv
@@ -29,25 +29,25 @@ pip install git+https://github.com/lighton/marenostrum-requirements.git@v0.1.0
 Install directly from GitHub:
 
 ```bash
-uv pip install git+https://github.com/lighton/marenostrum-requirements.git
+uv pip install git+https://github.com/lightonai/marenostrum-requirements.git
 ```
 
 Install a specific branch:
 
 ```bash
-uv pip install git+https://github.com/lighton/marenostrum-requirements.git@main
+uv pip install git+https://github.com/lightonai/marenostrum-requirements.git@main
 ```
 
 Install a specific tag/version:
 
 ```bash
-uv pip install git+https://github.com/lighton/marenostrum-requirements.git@v0.1.0
+uv pip install git+https://github.com/lightonai/marenostrum-requirements.git@v0.1.0
 ```
 
 Add to a uv project:
 
 ```bash
-uv add git+https://github.com/lighton/marenostrum-requirements.git
+uv add git+https://github.com/lightonai/marenostrum-requirements.git
 ```
 
 ## Included Dependencies
