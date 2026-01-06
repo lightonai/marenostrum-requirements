@@ -12,18 +12,6 @@ Install directly from GitHub:
 pip install git+https://github.com/lightonai/marenostrum-requirements.git
 ```
 
-Install a specific branch:
-
-```bash
-pip install git+https://github.com/lightonai/marenostrum-requirements.git@main
-```
-
-Install a specific tag/version:
-
-```bash
-pip install git+https://github.com/lightonai/marenostrum-requirements.git@v0.1.0
-```
-
 ### Using uv
 
 Install directly from GitHub:
@@ -32,22 +20,17 @@ Install directly from GitHub:
 uv pip install git+https://github.com/lightonai/marenostrum-requirements.git
 ```
 
-Install a specific branch:
 
-```bash
-uv pip install git+https://github.com/lightonai/marenostrum-requirements.git@main
+## Notes
+Flash Attention file used:
+```
+flash_attn-2.6.3+cu128torch2.8-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl
 ```
 
-Install a specific tag/version:
-
-```bash
-uv pip install git+https://github.com/lightonai/marenostrum-requirements.git@v0.1.0
 ```
-
-Add to a uv project:
-
-```bash
-uv add git+https://github.com/lightonai/marenostrum-requirements.git
+uv venv .venv
+source .venv/bin/activate
+uv sync
 ```
 
 ## Included Dependencies
