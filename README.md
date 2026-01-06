@@ -4,10 +4,50 @@ A package to install common ML/AI dependencies.
 
 ## Installation
 
+### Using pip
+
 Install directly from GitHub:
 
 ```bash
 pip install git+https://github.com/lighton/open-requirements.git
+```
+
+Install a specific branch:
+
+```bash
+pip install git+https://github.com/lighton/open-requirements.git@main
+```
+
+Install a specific tag/version:
+
+```bash
+pip install git+https://github.com/lighton/open-requirements.git@v0.1.0
+```
+
+### Using uv
+
+Install directly from GitHub:
+
+```bash
+uv pip install git+https://github.com/lighton/open-requirements.git
+```
+
+Install a specific branch:
+
+```bash
+uv pip install git+https://github.com/lighton/open-requirements.git@main
+```
+
+Install a specific tag/version:
+
+```bash
+uv pip install git+https://github.com/lighton/open-requirements.git@v0.1.0
+```
+
+Add to a uv project:
+
+```bash
+uv add git+https://github.com/lighton/open-requirements.git
 ```
 
 ## Included Dependencies
